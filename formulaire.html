@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page d'acceuil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/01index.css" />
+    <!-- Choisissez une police Google Fonts et ajoutez-là ici -->
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="Font awesome/css/fontawesome.min.css"> -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button">
+                    <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                    <!-- fa => classe de FontAwesome-->
+                    <!-- aria-->
+                </button>
+            </a>
+            <img src="img/logo.png" alt="tribal">
+        </div>
+        <!-- ./logo-->
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank"></a>
+            <!-- i.fa.fa-facebool-square[aria-hidden="true"] -->
+            <i class="fa fa-facebool-square" aria-hidden="true"></i>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <!-- DEBUT NAV -->
+    <nav>
+        <a href="index.html" >Acceuil</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteur.html">Selecteur</a>
+        <a href="image.html">Image</a>
+        <a href="position.html">Position</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="liste.html">Liste</a>
+        <a href="lien_menu.html">Lien & menu</a>
+        <a href="formulaire.html" class="activ">Formulaire</a>
+        <a href="multimédia.html">Multimédia</a>
+        <a href="animation.html">Animation</a>
+    </nav>
+    <div class="deux">
+        <div class="block"></div>
+        <div class="gris"></div>
+    </div>
+    <main>
+        <section>
+<h1>Formulaire</h1>
+<form action="">
+    <fieldset disabled="disabled">
+        <label for="Pseudo">Pseudo*</label>
+        <input type="text" id="" name="" required>
+        <br>
+        <br>
+        <label for="Prénom">Prénom</label>
+        <input type="Tapez votre pseudo">
+        <br>
+        <br>
+        <label for="mdp">Mot de passe</label>
+        <input type="password" id="mdp" name="mdp" required>
+    <br>
+    <br>
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" placeholder="email" required>
+    <br>
+    <br>
+    <label for="CV">CV</label>
+    <input type="file" name="file" id="file">
+    <br>
+    <br>
+    <label for="choix">Quel sont vos fruit préférée ?</label>
+    <p>
+    <!-- cases à cocher carrées,Checked en coche une par défaut -->
+        <input type="checkbox" name="choix" checked>Orange
+        <input type="checkbox" name="choix">Fraise
+        <input type="checkbox" name="choix">Poire
+    </p>
+    <br>
+    <br>
+     <label for="cp">Code postal</label>
+    <input type="text" id="id" name="id" maxlength="5" pattern="[0-9]{5}">
+<br><br>
+<input value="Message" value="Annuler" type="submit">
+<input value="Annuler" value="Annuler" type="submit">
+    </fieldset>
+</form>
+        </section>
+    </main>
+    <footer>
+        <!-- zone du bas, ex:lines administratif, mentions legales , plan du site -->
+    </footer>
+</body>
+
+</html>

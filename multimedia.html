@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Liste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/01index.css" />
+    <!-- Choisissez une police Google Fonts et ajoutez-là ici -->
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="Font awesome/css/fontawesome.min.css"> -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button">
+                    <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                    <!-- fa => classe de FontAwesome-->
+                    <!-- aria-->
+                </button>
+            </a>
+            <img src="img/logo.png" alt="tribal">
+        </div>
+        <!-- ./logo-->
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank"></a>
+            <!-- i.fa.fa-facebool-square[aria-hidden="true"] -->
+            <i class="fa fa-facebool-square" aria-hidden="true"></i>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <!-- DEBUT NAV -->
+    <nav>
+        <a href="index.html">Acceuil</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteur.html">Selecteur</a>
+        <a href="image.html">Image</a>
+        <a href="position.html">Position</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="liste.html" >Liste</a>
+        <a href="lien_menu.html">Lien & menu</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="multimedia.html" class="activ">Multimédia</a>
+        <a href="animation.html">Animation</a>
+    </nav>
+    <div class="deux">
+        <div class="block"></div>
+        <div class="gris"></div>
+    </div>
+    <main>
+        <h2>Multimedia</h2>
+        <section class="videoFond">
+            <h3>Vidéo en fond</h3>
+            <div class="videoTexte">
+                <video autoplay loop>
+                    <source src="audio/videoBackground.webm" type="video/webm">
+                </video>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, quibusdam ipsa minus laboriosam veniam
+                    incidunt libero sequi nam tempora natus obcaecati repellendus ducimus nemo reiciendis vel maiores vero alias
+                    dolorum.</p>
+            </div>
+        </section>
+        <section>
+            <h3>Vidéo Youtube</h3>
+            <iframe height="400" src="https://www.youtube.com/embed/MHYWgf3VqoY" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section class="audio">
+            <h3>Audio</h3>
+            <h4>Format MP4</h4>
+            <br>
+            <audio src="audio/son.mp3" controls></audio>
+            <h4>Format Ogg</h4>
+            <br>
+            <audio src="audio/son.ogg" controls></audio>
+        </section>
+        <section>
+            <h3>Google Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.238915598064!2d2.2824175160303923!3d48.929891079294464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f57b7711df3%3A0x74333e5944e77045!2sBoulevard+Pierre+de+Coubertin%2C+92230+Gennevilliers!5e0!3m2!1sfr!2sfr!4v1501487598830"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+    </main>
+    <footer>
+        <!-- zone du bas, ex:lines administratif, mentions legales , plan du site -->
+    </footer>
+
+</body>
+
+</html>

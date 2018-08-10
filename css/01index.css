@@ -106,3 +106,868 @@ header a{
     text-decoration: none;
 }
 /* fin header */
+
+.clear{
+    clear: both;
+}
+/* nav{
+    position: relative;
+    height: 0px;
+    width: 100%;
+    display: inline-block;
+    border: 4px solid  #2980b9;
+    border-bottom: 30px solid #2980b9;  
+    border-top: 30px solid #2980b9;
+    text-align: center;
+}
+nav a{
+    padding: 2%;
+     color:#2980b9;
+    text-decoration: none;
+    border: 1px solid #2980b9;
+    margin: auto;
+    border-radius: 10px 0;
+    display: inline-block;
+    position: relative;
+    left: 219px;
+    margin: 20px;
+    height: 10px;
+     
+}
+.activ{
+    position: relative;
+    height: 10%;
+}
+.block{
+    height: 93%;
+    width: 50%;
+    border-left:2px solid;
+    border-right: 2px solid;
+    background-color: gray;
+    position: absolute; 
+    margin-left: 500px;
+    margin-top: 0px;
+}
+
+.gris{
+    background-color: rgb(3, 233, 137);
+    position: absolute; 
+     height: 65%;
+    width: 50%;
+    border-left:2px solid;
+    border-right: 2px solid;
+    margin-left: 500px;
+    margin-bottom: 174px;
+}
+footer{
+    border-color:#2c3e50; 
+    background-color: #2c3e50;
+} */
+/*------------------ Debut nav-------------------- */
+nav{
+    background: #2980b9;
+    height: 70px;
+    border-bottom: 8px solid #6acafc;
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    margin: 10px;
+    padding: 2px 10px;
+    border-radius: 10px 0px;
+    border: 2px solid #fff;
+    background: #6acafc;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Merienda';
+    transition: 0.5;
+}
+nav a:hover{
+    background-color: #a6d6c3;
+    color: #fff;
+}
+.activ{
+    background-color: #a6d6c3;
+}
+/* ----------------FIN NAV --------------- */
+/* FAIRE LE ZONING AVEC DES HAUTEUR ET LARGEUR AVANT DE PLACER LES ELEMENTS DANS LES ZONES POUR ENSUITE SUPPRIMER LES HAUTEURS */
+main{
+    background-color: rgba(178, 178, 178, 0.90);
+    width: 1000px;
+    margin: 0 auto;
+}
+/* selecteur */
+.select p{
+    color: red;
+}
+.select p:first-of-type{
+    color: pink
+}
+/* La pseudo-classe : first-of-type permet de cibler le premier élément dont l'élément parent est d'un type donné (ex.cibler le premier élément fils d'un div) */
+.select p:last-of-type{
+    color: #a6d6c3;
+}
+/* La pseudo classe :last-of-type cible un élément qui est le dernier enfant d'un type de donné dan sla liste des enfants de l'element parent */
+.select p:nth-of-type(5), .select p:nth-last-of-type(6){
+    color: #000;
+}
+.select div:not(.zoneB){
+    font-weight: bold;
+    font-size: 30px;
+} 
+.select .zoneA{
+    color: #f56f56;
+}
+.select .zoneB{
+    color: #996633;
+}
+.select .zoneB .couleurBleu{
+    color: blue;
+    font-size: 16px;
+}
+.select #zoneC{
+    color: #98f32f;
+}
+.select #zoneD span{
+    color: #32ff32;
+    font-size: 30px;
+    font-style: italic;
+}
+/* .rose{
+color: pink;
+}
+.red{
+color: rgb(214, 52, 52);
+}
+.vert{
+    color: rgb(26, 241, 98);
+} */
+/* selecteur page */
+.texte{
+    left: -400px;
+    margin-left: -88%;
+}
+aside{
+    height: 315px;
+    background-color: #a6d6c3;
+}
+section{
+    margin-top: 50px;
+    padding: 20px;
+
+}
+footer{
+    background: #2980b9;
+    height: 30px;
+}
+/* ------------------ PAGE image */
+#fondgris{
+    background-color: gray;
+}
+#fondimage{
+    background-image: url('../img/fond.jpg');
+    height: 500px;
+}
+ .parent p{
+    background: rgba(178,178,178,0.40);
+    margin: 0 auto;
+    width: 520px;
+    border-radius: 25px;
+    padding: 25px;
+}
+.toureiffel{
+    background: rgba(132, 255, 101, 0.90);
+    height: 50%;
+    position: relative;
+    width: 54%;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+}
+.paris{
+margin-left: 40%;
+
+}
+/* ------------------------------ */
+/* pont */
+.pont{
+    background: rgba(132, 255, 101, 0.90);
+    height: 80%;
+    width: 54%;
+    margin: 0 auto;
+}
+.one{
+    margin-right: 40px;
+     position: relative;
+   border: 3px solid #fff;
+   -webkit-transition: all 0.5s ease;
+  transition: all 5s ease;
+  left: -5%;
+}
+.one:hover{
+    -webkit-transform: rotate(-205deg);
+  transform: rotate(-205deg);
+}
+.two{
+    margin-left: -11px;
+    border: 3px solid #fff;
+    -webkit-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+
+}
+.two:hover{
+    -webkit-transform: rotate(205deg);
+  transform: rotate(205deg);
+}
+.twoimg{
+    position: relative; 
+    left: 26%;
+
+}
+.threeimg{
+    left: 43%;
+    position: relative;
+    width: 200px;
+  height: 150px;
+  width: 200px; /* largeur de l'image */
+  height: auto; /* hauteur de l'image */
+  -webkit-transition: .3s ease-in-out !important; 
+  transition: .4s ease-in-out !important; 
+}
+.three{
+border: 3px solid #fff;
+left: 20%;
+}
+/* rotation */
+.three:hover{
+   width: 150px; /* on affiche l'image au carré */
+  height: 150px;
+  border-radius: 50%; 
+}
+/* FIN DE PAGE IMAGE */
+/*------------------- BOUTON TOP ------*/
+button{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 250%;
+    color: rgba(0, 86, 245, 0.4);
+}
+
+/* ******************DEBUT ZONING ********************* */
+.bloc{
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-color: #6acafc;
+}
+
+.absolute{
+    position: absolute;
+    top:10%;
+    height: 15%;
+    width: 9%;
+    background-color: orange;
+}
+.Relative{
+    height: 38%;
+width: 15%;
+    background-color: #2980b9;
+    border: #996633;
+    position: absolute;
+    margin-left: 43%
+}
+.un{
+background-color: rgb(230, 18, 18);
+width: 30%;
+margin-top: 0%;
+height: 5%;
+}
+.deux{
+    background-color: rgb(236, 122, 122);
+    width: 50%;
+    margin-top:0%;
+    height: 5%;
+}
+.trois{
+    background-color: rgb(255, 205, 205);
+    width: 100%;
+    margin-top:0%;
+    height: 5%;
+}
+ .zoning{
+   height: 2000px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.bas{
+        text-align: center;
+        margin-top: 15%;
+}
+/* ----------------------FLOAT */
+
+.clair{
+    height: 11vh;
+
+    width: 18vw;
+    padding: 5vh; 
+    background-color: #6acafc;
+    background-repeat:no-repeat;
+    border: 5px double orchid;
+    margin: 2vh; 
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+ .zoneb{
+    background-color: rgb(66, 66, 66);
+     width: 23.1%;
+    height: 26px;
+    padding: 0vh;
+} 
+.carun{
+    float: left;
+    /* height: 11vh; */
+    /* width: 18vw; */
+    padding: 5vh;
+    background-color: #4098f0;
+}
+.cardeux{
+    float: left;
+    height: 30%;
+    width: 3%;
+    padding: 5vh;
+    background-color: #e9b408;
+}
+.cartrois{
+    float: left;
+    height: 30%;
+    width: 3%;
+    padding: 5vh;
+    background-color: #17f887;
+}
+.carquatre{
+    float: left;
+    height: 30%;
+    width: 3%;
+    padding: 5vh;
+    background-color: #0bc0e0;
+}
+
+/* --------------------------------- */
+.carone{
+    float: left;
+    height: 30%;
+    width: 3%;
+    padding: 8vh;
+    margin-right:10%; 
+    background-color: #0817ec;
+
+}
+.cartwo{
+    float: left;
+    height: 30%;
+    width: 3%;
+    padding: 8vh;
+    margin-right: 10%;
+    background-color: #0817ec;
+}
+.carthree{
+    float: left;
+    height: 30%;
+    width: 3%;
+    padding: 8vh;
+    margin-right: 10%;
+    background-color: #0817ec;
+}
+.carfour{
+    float: left;
+     height: 30%;
+    width: 3%;
+    padding: 8vh;
+    margin-right: 10%;
+    background-color: #0817ec;
+
+}
+/* ----------------- zoning 1 */
+.zhaut{
+        height: 30px;
+        width: 35%;
+        background-color:#fbff06;
+}
+.zgauche{
+    float: left;
+    height: 30vh;
+    width: 8%;
+    background-color: #49f88c;
+}
+.zdroite{
+    float: left;
+    height: 30vh;
+    width: 23vw;
+    padding: 8vh;
+    background-color: #046e2d;
+}
+/* -------------------------zoning 2 */
+.zoneho{
+background-color: gainsboro;
+float: left;
+height: 2vh;
+width: 22vw;
+}
+.zonegauche{
+float: left;
+height: 28vh;
+width: 6vw;
+position: relative;
+top: 2vh;
+left: -45vh;
+background-color: #996633;
+}
+.zonemilieu{
+background-color: #0bc0e0;
+height: 28vh;
+width: 9vw;
+position: relative;
+top: 2vh;
+left: 12vh;
+padding-right: 11vh;
+}
+.zonedroite{
+    background-color: #32ff32;
+    height: 28vh;
+    width: 7vw;
+    position: relative;
+    top: -26vh;
+    left: 30vh;
+    /* float: left; */
+
+    /* -----------Zoning 3 */
+}
+.sgauche{
+    background-color: forestgreen;
+float: left;
+height: 28vh;
+width: 10vw;
+position: relative;
+top: 9vh;
+left: 0vh;
+color: #fff;
+}
+.sdroite{
+    height: 28vh;
+    width: 10vw;
+    position: relative;
+    top: 9vh;
+    left: 20vh;
+    background-color: greenyellow;
+   
+}
+.sbas{
+background-color: gainsboro;
+float: left;
+height: 3vh;
+width: 380px;
+position: relative;
+top: 4%;
+
+}
+
+
+
+
+
+
+
+
+/* ------------------------------ fIN ZONING */
+/* ***************DEBUT TABLEAU ************** */
+caption{
+    text-align: center;
+}
+table{
+border: 6px solid #10828c;
+width: 90%;
+margin: 25px;
+border-collapse: collapse;
+text-align: center; 
+} 
+thead ,tfoot{
+    border: 2px solid #4098f0;
+}
+th{
+    width: 12%;
+    background-color: #4098f0;
+    border: 1px solid #6acafc;
+}
+tr ,td{
+    border: 2px solid #0bc0e0; 
+}
+td{
+    padding: 5px;
+}
+/* *******LIEN ET MENU ************ */
+
+#troie a{
+    color: #fff;
+    background-color: rgb(38, 58, 122);
+    box-shadow: 0 0 4px rgb(38, 58, 122);
+   border-radius: 13px;
+    position: relative;
+    top: 374%;
+    left: 40vh;
+    margin-right: 5%;
+    text-decoration: none;
+}
+/*****Menu Déroulant*****/
+
+#menuDeroulant{
+   height: 650px;
+
+}
+
+#menuDeroulant nav{
+   background: transparent;
+   border: none;
+   width: 90%;
+   margin: 0 auto;
+
+}
+
+#menuDeroulant nav ul li{
+   float: left;
+   list-style: none;
+   width: 20%;
+
+}
+
+#menuDeroulant ul ul{
+   display: none;
+}
+
+#menuDeroulant nav ul li ul li {
+   border-top: 1px solid #464646;
+   width: 100%;
+}
+
+#menuDeroulant nav li {
+   background: #ccc;
+}
+
+#menuDeroulant nav li a{
+   text-decoration: none;
+   color: #000;
+   padding: 4px 0 4px;
+   display: block;
+}
+
+#menuDeroulant ul{
+   text-align: center;
+}
+
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2{
+   display: block;
+}
+/* ------------------------------ */
+/* #troie{
+    text-align: center;
+} */
+.t1{
+    position: relative;
+    top: 0;
+    left: -121px;
+}
+.t2{
+position: relative;
+top: -6vh;
+left: 12px;
+}
+.t3{
+position: relative;
+    top: -12vh;
+    left: 10vh;
+}
+div #navtwo a{
+   
+    border-radius: 10px 0px;
+    border: 2px solid #fff;
+    background-color: ghostwhite;
+}
+
+#navtwo a{
+    color: gray;
+    border-radius: 10px 0px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Merienda';
+}
+
+
+
+
+/* ********FORMULAIRE************* */
+fieldset{
+    background-color: rgb(38, 58, 122);
+    color: #fff;
+    border-radius: 10px;
+    width: 10vw;
+    width: 31vw;
+    position: relative;
+    left: 150px;
+    height: 425px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+input{
+    position: relative;
+    left: 10vw;
+}
+#mdp{
+    left: 158px;
+}
+
+/* --------------------MULTIMEDIA */
+
+
+
+
+
+/* ********************************** */
+/* **************ANIMATION ********** */
+.Infobulles{
+    height: 250px;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 15px;
+    backface-visibility: #444;
+    box-shadow: 0 0 50px #222 inset; /*inset place de l'ombre à l'intérieur*/
+
+}
+
+.Infobulles p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Infobulles a{
+    color: #ccc;
+    text-shadow: 0 -2px 0 black;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.Infobulles a:hover{
+    text-shadow: 0 1px 2px black;
+    background: rgba(0, 0, 0, .4);
+    box-shadow: 0 1px 0 rgba(255, 255, 255,.4);
+    color: #fff;
+}
+.Infobulles a span{
+    position: absolute;
+    padding: 15px;
+    margin-top: 23px;
+    margin-left: -35px;
+    background: rgba(0, 0, 0, .9);
+    opacity: 0;
+    color: #09c;
+    transform:scale(0) rotateZ(-12deg);
+    transition: 0.25s;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    /* rotaton l'axe vertical */
+}
+.Infobulles a:hover span{
+    opacity: 1;
+    transform: scale(1) rotateZ(0);
+}
+.Infobulles a span:before{ /*on injecte quelque chose en avant*/
+content: '';
+position: absolute;
+top: -6px;
+left: 10px;
+border-bottom: 6px solid rgba(0, 0, 0, .9);
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+}
+.imgEffets{
+    width: 302px;
+    height: 320px;
+    margin: 70px auto;
+}
+.imgEffets li{
+    list-style: none;
+    float: left;
+    width: 141px;
+    height: 150px;
+    margin: 5px;
+}
+.imgEffets img{
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    box-shadow: 0 0 3px black;
+    transition: .5s cubic-bezier(0, 3, 4, 1);
+}
+.imgEffets li:hover img{
+z-index: 2;
+transform: scale(1.5);
+box-shadow: 0 0 10px black;
+}
+
+.imgEffets:hover li:not(:hover) img{
+    filter: grayscale(1) blur(5px);
+}
+#menuRotate{
+    height: 360px;
+    width: 576px;
+    margin: 100px auto;
+    background: #627878;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+
+}
+#menuRotate .masque{
+position: absolute;
+z-index: 50;
+width: 585px;
+height: 135px;
+top: 0;
+left: 0;
+background: linear-gradient(#324040, #627878);
+}
+#menuRotate .ombre{
+    position: absolute;
+    z-index: 40;
+    width: 300px;
+    height: 6px;
+    box-shadow: 0px 100px 3px black;
+    border-radius: 75px 75px 75px 75px / 3px 3px 3px 3px;
+    top: 30px;
+    left: 142px;
+
+}
+#menuRotate dl{
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    height: 155px;
+    color: #324040;
+    text-align: center;
+    background: #04b3d2;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+    transform-origin: 50% 120px;
+    animation: bounceOut 0.7 ease-in-out;
+}
+#menuRotate dt{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 23px;
+    padding-top: 5px;
+}
+#menuRotate dd{
+    transform: rotate(180deg);
+}
+#menuRotate dd a{
+    display: block;
+    height: 24px;
+    padding: 3px 0;
+    color: #324040;
+    text-decoration: none;
+}
+#menuRotate dd a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+#menuRotate dl:hover{
+    transform: rotate(-180deg);
+    animation: bounceIN 0.7s ease-in-out;
+}
+
+/* Les keyframes représenten le déroulement de votre animation.Les valeurs en pourcentage représent un moment tmporel précis au cours de la durée de votre animation ainsi 10% représentera La 6éme seconde d'une animation durant une minute
+Les keyframes 0% et 100ù sont obligatoire et que leur omission empechera le fonctionement de votre animation sur certains navigateurs */
+@keyframes bounceIN{
+    from{
+
+    transform:rotate(0deg);
+}
+75% {
+    transform: rotate(-200deg);
+}
+90%{
+    transform: rotate(-175deg);
+}
+to{
+    transform: rotate(-180deg);
+}
+}
+
+@keyframes bounceOut{
+    from{
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(-180deg);
+}
+10% {
+        transform:rotate(-165deg);
+}
+to {
+    transform: rotate(-360deg);
+
+}
+}
+
+
+
+
+/* ***********FIN ANIMATION ********** */
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+/* 1er block */
+/*
+.bloc{
+    background-color: #6acafc;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.relativ{
+    position: relative;
+    /* float: left; 
+    margin-left: 20%;
+    height: 56%;
+    width: 27%;
+    background-color: #2c3e50;
+    bottom: -60%;
+} 
+
+/* 
+}
+
+}
+  */
